@@ -13,7 +13,11 @@ class Watch extends StatelessWidget {
         height: 40,
         width: 120,
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(45.0),
+          border: Border.all(
+            color: Color(0XFF4DFFFFFF),
+            width: 2,
+          ),
+          borderRadius: BorderRadius.circular(70.0),
           color: Color(0XFF24966D),
         ),
         padding: const EdgeInsets.only(left: 5.0,top: 10,right: 10,bottom: 10),

@@ -5,6 +5,10 @@ import 'package:get_storage/get_storage.dart';
 import 'package:ird_application/routes/app_pages.dart';
 
 void main() async {
+  SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
+    statusBarColor: Color(0XFF042E2B),
+
+  ));
   await GetStorage.init();
   runApp(
       GetMaterialApp(
