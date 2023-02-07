@@ -18,7 +18,7 @@ class WelcomeBox extends StatelessWidget {
       color: Colors.transparent.withOpacity(0.1),
       borderRadius: BorderRadius.circular(15.0),
       ),
-      padding: const EdgeInsets.only(left: 15.0,right: 15.0,top: 5.0),
+      padding: const EdgeInsets.only(left: 15.0,right: 0.0,top: 5.0),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
