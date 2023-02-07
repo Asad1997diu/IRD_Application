@@ -55,8 +55,8 @@ class BottomPage extends GetView<BottomController> {
                     bottomRight: Radius.circular(8),
               ),
                   child: BottomNavigationBar(
-                unselectedItemColor: Color(0XFFB4C1C0),
-                selectedItemColor: Color(0XFF042E2B),
+                unselectedItemColor: const Color(0XFFB4C1C0),
+                selectedItemColor: const Color(0XFF2C8877),
                 onTap: controller.changeTabIndex,
                 currentIndex: controller.tabIndex,
                 showSelectedLabels: true,
